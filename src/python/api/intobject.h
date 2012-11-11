@@ -22,7 +22,9 @@ typedef struct
 {
 } PyInt_Type;
 
-
+typedef struct
+{
+} PyIntObject;
 
 PyObject* PyInt_FromLong(long i);
 

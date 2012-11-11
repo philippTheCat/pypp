@@ -18,6 +18,9 @@
 #define _PY_API_LONGOBJECT_
 
 
+typedef struct 
+{
+} PyLongObject;
 
 
 

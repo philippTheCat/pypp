@@ -39,7 +39,8 @@ typedef int Py_ssize_t;
 #include "tupleobject.h"
 #include "intobject.h"
 #include "longobject.h"
-
+#include "floatobject.h"
+#include "stringobject.h"
 
 static PyObject* Py_None;
 
